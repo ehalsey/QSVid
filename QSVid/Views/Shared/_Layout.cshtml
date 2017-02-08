@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TodoList Sample</title>
+    <link href="~/Content/owl.carousel.css" rel="stylesheet"/>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
@@ -19,7 +20,6 @@
         </div>
         <div></div>
     </header>
-    <main>
         @RenderBody()
     </main>
     <footer>
@@ -27,6 +27,9 @@
     </footer>
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    <script src="~/Scripts/owl.carousel.js"></script>
+    <script src="~/Scripts/Index.js"></script>
     @RenderSection("scripts", required: false)
+
 </body>
 </html>

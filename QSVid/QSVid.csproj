@@ -168,6 +168,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\owl.carousel.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -175,6 +176,8 @@
     <Content Include="app\components\todolist\todolist.component.css" />
     <Content Include="app\components\todolist\todolist.component.html" />
     <None Include="readme.md" />
+    <Content Include="Scripts\Index.js" />
+    <Content Include="Scripts\owl.carousel.js" />
     <Content Include="systemjs.config.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
